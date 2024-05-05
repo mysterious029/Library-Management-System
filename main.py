@@ -137,7 +137,6 @@ def main():
     book_storage = storage.JSONStorage(os.path.join(data_dir, "books.json"))
     user_storage = storage.JSONStorage(os.path.join(data_dir, "users.json"))
     check_storage = storage.JSONStorage(os.path.join(data_dir, "checkouts.json"))
-    # check_storage_in = storage.JSONStorage(os.path.join(data_dir, "checkins.json"))
 
     book_manager = book.BookManager(book_storage)
     user_manager = user.UserManager(user_storage)
