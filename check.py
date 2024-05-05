@@ -31,8 +31,3 @@ class CheckInOut:
     def is_book_checked_out(self, isbn):
         return any(book == isbn for _, book in self.checkouts)
     
-    # def get_checked_in_books(self):
-    #     return self.checkouts
-
-    # def is_book_checked_in(self, isbn):
-    #     return any(book == isbn for _, book in self.checkouts)

@@ -123,10 +123,7 @@ def manage_checkout(check_manager):
             print("Checked Out Books:")
             for checkout in check_manager.get_checked_out_books():
                 print(f"User ID: {checkout[0]}, ISBN: {checkout[1]}")
-        # elif choice == '4':
-        #     print("Checked In Books:")
-        #     for checkout in check_manager.get_checked_in_books():
-        #         print(f"User ID: {checkout[0]}, ISBN: {checkout[1]}")        
+                
         elif choice == '4':
             break
         else:
