@@ -1,7 +1,7 @@
 import os
 import json
 from book import Book
-from user import User  # Import the User class
+from user import User  
 
 class BookEncoder(json.JSONEncoder):
     def default(self, obj):

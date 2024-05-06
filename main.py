@@ -106,7 +106,6 @@ def manage_checkout(check_manager):
         print("1. Check Out Book")
         print("2. Check In Book")
         print("3. View Checked Out Books")
-        # print("4. View Checked In Books")
         print("4. Back to Main Menu")
         choice = input("Enter choice: ")
         if choice == '1':
